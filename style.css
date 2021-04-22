@@ -1,0 +1,373 @@
+@charset "utf-8";
+@font-face {
+   font-family: "robotoblack";
+   src: url("../font/Roboto-Black-webfont.woff") format("woff");
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+p {
+   color: aqua;
+   background-color: rgba(128, 128, 128, 0.911);
+   font-size: 20px;
+   width: 50%;
+   font-family: Arial, Helvetica, sans-serif;
+   font-family: 'Cormorant Unicase', serif;
+}
+
+.conteneur {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items:center;
+   background: coral;
+
+   height: 350px;
+}
+/*  flex-direction: row; > affiche les éléments en ligne (par défaut)
+    flex-direction: row-reverse; > affiche les éléments en ordre inversé
+    flex-direction: column; > affiche les éléments en colonne
+    flex-direction: column-reverse; > affiche les éléments 
+    en colonne en ordreinversé
+*/
+
+
+.element1{
+background: aqua;
+padding: 10px;
+width: 20%;
+}
+
+
+.element2{
+background: blue;
+padding: 10px;
+width: 20%;
+}
+
+.element3{
+background: chartreuse;
+padding: 10px;
+width: 20%;
+}
+
+.transi1 {
+   width: 100px;
+   height: 100px;
+   background: #0c4c7b;
+   -ms-transition: width 2s , background 2s;
+   transition: width 2s;
+
+}
+.transi1:hover{
+   width: 300;
+   background: blue;
+   transform: rotate(45deg);
+}
+
+.monmenu {
+   background: #0c4c7b;
+   overflow: hidden;
+
+}
+
+.monmenu ul {
+   margin: 0;
+   padding: 0;
+}
+
+.maPosition {
+   background: aqua;
+   border: 4px solid #121212;
+   padding:  10px;
+   width: 50px;
+   
+}
+
+.monmenu ul li{
+   text-decoration: underline;
+   padding: 16px 14px;
+   float:left;
+   list-style: none;
+   padding: 10px 20px;
+   border-right:1px solid #121212;
+
+}
+
+
+
+.maNav{
+   background-color: rgb(238, 207, 34);
+   display: flex;
+   overflow: hidden;
+   width: 50%;
+
+}
+
+.maNav ul li{
+   text-decoration: underline;
+   padding: 5px 5px;
+   float:left;
+   list-style: none;
+   padding: 10px 20px;
+   display: block;
+
+
+}
+
+
+/*
+.maNav{
+   width: 250px;
+   background-color: brown;
+   border-style: solid;
+   border-color: cornflowerblue;
+   border-width: 1px 1px 0 1px;
+   
+}
+.maNav ul {
+   margin: 0;
+   padding: 0;
+}
+.maNav ul li {
+   text-align: center;
+   list-style-type: none;
+}
+
+.maNav ul li a {
+   color: #fff;
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+   display: block;
+   padding: 8px 16px;
+}
+
+.maNav ul li:hover {
+   background-color: orangered;
+}/*  paragraphe des href nav%%*/
+
+
+.monBg {
+   /*background-image: url("../img/bg_newsletter.jpg"), url("../img/salade.jpg");
+   height: 500px,500px;
+   background-size:50%, 50%;
+   background-repeat: no-repeat;
+   background-position: top left, center right;
+   background-position-y: 50%;*/
+   height: 300px;
+   background: #093028;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #237A57, #093028);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #237A57, #093028); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+   }
+
+   .block1, .block2, .block3 {
+      display: inline-block;
+      width: 45%;
+      height: 200px;
+      margin: 1%;
+      }
+
+   .block1{
+      background: #237A57;
+      width: 15%;
+   }
+
+   .block2 {
+      background: #892;
+      width: 15%;
+   }
+   .block3 {
+      background: #093028;
+      width: 20%;
+   }
+
+   h1 {
+      color:lawngreen;
+      font-family: 'Alegreya', serif;
+      font-family: 'Cormorant Unicase', serif;
+      font-size: 38px;
+      text-decoration: underline;
+      border: 5px inset red;
+      box-shadow: 10px 10px 10px mediumblue;
+      text-shadow: 5px 5px 5px rgb(173, 10, 37);
+
+      margin: 50px 50px 50px 50px;
+      /*margin: 50px 30px 40px 30px;
+      Premiere valeur > de la gauche vers la droite
+         Deuxieme valeur > du haut vers le bas
+         Troisieme valeur > le fondu de l'ombre portée
+         Quatrieme valeur > la couleur
+      */
+      width: 300px;
+      margin: 50px auto;
+      padding: 20px 50px 50px 20px;
+      
+      }
+
+.monh1{
+      margin: 50px auto;
+      padding: 20px;
+      border: 20px;
+      width: 300;
+   }
+
+   h2 {
+      text-transform: uppercase;
+      size: 48px;
+      color: #1b2a49;
+      font-family: "robotoblack";
+      
+   }
+   p {
+      text-align: justify 18px;
+   }
+   
+.maTable {
+   background: #445;
+}
+
+.maTable, th{
+   background: #892;
+}
+
+.display p{
+   display: inline;
+   color: tomato;
+   background: rgb(78, 50, 205);
+   width: 40%;
+}  
+    
+h2 {
+  /* text-align: center;
+   text-decoration: underline;
+   text-decoration: overline;*/
+}
+
+.monForm input:hover{
+   background: #892;
+}
+
+.monForm input, .monForm textarea {
+   border: 2px solid #46d30e;
+   margin: 5px 0;
+   border-radius: 5px;
+}
+
+.monForm input:hover, .monForm textarea:hover {
+   background: orange;
+}
+.monForm button {
+   background: rgb(35, 194, 167);
+}
+ .monForm label {
+   color: rgb(30, 17, 202);
+ }
+
+/*.monForm input, .monForm textarea {
+    border: 2px solid red;
+    margin: 5px 0;
+    border-radius: 5px;
+    color: #fff;
+}
+
+.monForm input:hover {
+    background: orange;
+}
+
+.monForm input:focus {
+    background: blue;
+}
+
+.monForm label {
+    color:blue;
+}
+
+.monForm button {
+    background:rgba(255, 157, 0, 0.8);
+    padding: 10px 15px;
+    color: #fff;
+    border: none;
+    transition: box-shadow 0.4s, background 0.4s, transform 0.4s;
+}
+
+.monForm button:hover {
+    background:rgba(200, 125, 4, 0.8);
+    box-shadow: 0 0 5px rgba(0,0,0,0.3);
+    transform: scale(1.05);
+}
+*/
+
+
+.monAnim {
+   position: relative;
+   width: 100px;
+   height: 100px;
+   background: goldenrod;
+   animation: monAnim 5s infinite;
+}
+
+.maTable {
+   width: 100%;
+   border-collapse: collapse;
+}
+
+.maTable td, .maTable th {
+   padding: 10px;
+   text-align: center;
+   border: 1px solid black;
+}
+
+.maTable th {
+   background: grey;
+}
+
+.maTable tr:hover {
+   background: orange;
+}
+
+.maTable tr :nth-child(even){
+   background: #444;
+}
+
+
+
+@keyframes monAnim {
+   from { left: 0;}
+   to {left: 200px;}
+
+  /* 0% {top:0; left:0; background:orange;}
+    25% {top:0; left:250px; background: red;}
+    50% {top:250px; left:250px; background:green;}
+    75% {top:250px; left:0; background:blue;}
+    100% {top:0; left:0; background:orange;}*/
+
+}
+
+@media screen and (max-width: 480px){
+   body {
+      background: red;
+   }
+}
+
+/*@media screen and (max-width: 550px) {
+    body {
+        background:red;
+    }
+}
+
+   
+@media screen and (min-width: 551px) and (max-width:800px) {
+    body {
+        background:coral;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body {
+        background:red;
+    }
+}
+*/
